@@ -30,62 +30,73 @@
     <title>Kristin Matzies</title>
   </head>
   <body>
-    <header>
-      <h1>Kristin Matzies</h1>
-      <nav>
-        <a href="#kontakt">Kontakt</a>
-        <a href="#cv">CV</a>
+    <header class="container">
+      <h1 class="font-weight-bold my-3 text-dark">Kristin Matzies</h1>
+      <nav class="mb-3">
+        <a href="#kontakt" class="text-dark"><u>Kontakt</u></a>
+        <a href="#cv" class="ml-5 text-dark"><u>CV</u></a>
       </nav>
     </header>
     <section>
-      <div>
-        <img src="./IMG_2855.JPG" />
-        <h2>Personal Statement</h2>
-        <p>
+      <div class="container">
+        <img
+          class="img-fluid max-width: 100% height: auto"
+          src="./IMG_2855.JPG"
+        />
+        <h2 class="text-dark">Personal Statement</h2>
+        <p class="text-dark">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
           repudiandae deleniti obcaecati ducimus, non optio modi officia natus.
         </p>
       </div>
-      <div>
-        <h3>Skills</h3>
-        <ul>
-          <li>Bootstrap</li>
-          <li>Shell</li>
-          <li>HTML</li>
-          <li>Git</li>
-          <li>CSS</li>
-        </ul>
+      <div class="container">
+        <h3 class="text-dark">Skills</h3>
+              <span class="badge badge-info">Bootstrap</span>
+              <span class="badge badge-info">Shell</span>
+              <span class="badge badge-info">HTML</span>
+              <span class="badge badge-info">Git</span>
+              <span class="badge badge-info">CSS</span>
+            </ul>
+        <h3 class="mt-3 text-dark">Sonstiges</h3>
+          <span class="badge badge-info">Teamfähigkeit</span>
+          <span class="badge badge-info">Organisationstalent</span>
+          <span class="badge badge-info">Kreativität</span>
+          <span class="badge badge-info">Motivation</span>
       </div>
-      <div>
-        <h3>Sonstiges</h3>
-        <ul>
-          <li>Teamfähigkeit</li>
-          <li>Organisationstalent</li>
-          <li>Kreativität</li>
-          <li>Motivation</li>
-        </ul>
-      </div>
+    </div>
     </section>
+    <section class="mt-3 card text-white bg-info mb-3">
+      <h3 id="kontakt" class="card-header">Kontakt</h3>
+      <div class="card-body">
+      <p class="card-text m-0 font-weight-bold">Mail</p>
+      <a href="mailto:kristinmatzies@hotmail.de" class="card-link text-white"><u>Kristin Matzies</u></a>
+      <p class="card-text m-0 font-weight-bold">Telefon</p>
+      <a href="tel:01772669160" class="card-link text-white"><u>0177 266 91 60</u></a>
+    </div>
+  </div>
+    </section>
+    <div class="container">
     <section>
-      <h3 id="kontakt">Kontakt</h3>
-      <p>Mail</p>
-      <a href="mailto:kristinmatzies@hotmail.de">Kristin Matzies</a>
-      <p>Telefon</p>
-      <a href="tel:01772669160">0177 266 91 60</a>
-    </section>
-    <section>
-      <h3>Social Media</h3>
-      <img src="./github_logo.png" alt="GitHub" />
-      <a href="https://github.com/kristinmatzies">GitHub</a>
-      <img src="./linkedin_logo.png" alt="LinkenIn" /><a
-        href="https://www.linkedin.com/in/kristinmatzies/"
-        >LinkedIn</a
+      <h3 class="text-dark">Social Media</h3>
+      <div class="row">
+      <div class="col-md">
+      <a href="https://github.com/kristinmatzies"><img src="./github_logo.png" alt="GitHub" class="img-thumbnail display: table-cell"/></a>
+    </div>
+    <div class="col-md">
+      <a
+        href="https://www.linkedin.com/in/kristinmatzies/"><img src="./linkedin_logo.png" alt="LinkenIn" class="img-thumbnail display: table-cell"/>
+        </a
       >
-      <img src="./xing_logo.jpg" alt="Xing" /><a
-        href="https://www.xing.com/profile/Kristin_Matzies/cv"
-        >XING</a
+    </div>
+    <div class="col">
+      <a
+        href="https://www.xing.com/profile/Kristin_Matzies/cv"><img src="./xing_logo.jpg" alt="Xing" class="img-thumbnail display: table-cell" />
+        </a
       >
+    </div>
+    </div>
     </section>
+  </div>
     <section>
       <h2 id="cv">Curriculum Vitae</h2>
       <p>
